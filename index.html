@@ -1,28 +1,59 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR"> <!-- Define a linguagem da página -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8"> <!-- Codificação de caracteres UTF-8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Compatibilidade com IE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade -->
+
+    <title>Memes Estranhos</title> <!-- Título da aba -->
+
+    <!-- Importação da fonte Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+
+    <!-- Ícone da aba -->
+    <link rel="icon" type="image/png" href="https://www.google.com/imgres?q=shitpost&imgurl=https%3A%2F%2Fpt.quizur.com%2F_image%3Fhref%3Dhttps%3A%2F%2Fimg.quizur.com%2Ff%2Fimg636138a04cc497.30300056.jpg%3FlastEdited%3D1667315874%26w%3D600%26h%3D600%26f%3Dwebp&imgrefurl=https%3A%2F%2Fpt.quizur.com%2Fquiz%2Fqual-shitpost-vc-e-QYAB&docid=7cabXutxJXW5nM&tbnid=_ayNK3lM9jD--M&vet=12ahUKEwia8PisvpmPAxWAq5UCHcl6OssQM3oECBoQAA..i&w=600&h=450&hcb=2&ved=2ahUKEwia8PisvpmPAxWAq5UCHcl6OssQM3oECBoQAA">
+
+    <!-- Reset de estilos e CSS principal -->
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
    <h1>Efeitos Som</h1>
    <h2>Memes Estranhos</h2> 
    <section class="teclado">
-    <button class="tecla tecla-som-1"> <img src= "./img/ballin.jpeg" </button>
-    <button class="tecla tecla-som-1"> <img src= "./img/candyland.jpeg" </button>
-    <button class="tecla tecla-som-1"> <img src= "img/chines.jpg" </button>
-    <button class="tecla tecla-som-1"> <img src= "./img/chinese.jpeg" </button>
-    <button class="tecla tecla-som-1"> <img src= "./img/japanese.jpeg" </button>
-    <button class="tecla tecla-som-1"> <img src= "./img/pinguim.jpeg" </button>
-    <button class="tecla tecla-som-1"> <img src= "./img/rizz.jpeg" </button>
-    <button class="tecla tecla-som-1"> <img src= "./img/superidol.jpeg" </button>
-    <button class="tecla tecla-som-1"> <img src= "./img/whitebird.jpeg" </button>
+    <button class="tecla tecla_som1"><img src="img/ballin.jpeg" alt="Som 1"></button>
+        <button class="tecla tecla_som2"><img src="img/candyland.jpeg" alt="Som 2"></button>
+        <button class="tecla tecla_som3"><img src="img/chines.jpg" alt="Som 3"></button>
+
+        <button class="tecla tecla_som4"><img src="img/chinese.jpeg" alt="Som 4"></button>
+        <button class="tecla tecla_som5"><img src="img/japanese.jpeg" alt="Som 5"></button>
+        <button class="tecla tecla_som6"><img src="img/pinguim.jpeg" alt="Som 6"></button>
+
+        <button class="tecla tecla_som7"><img src="img/rizz.jpeg" alt="Som 7"></button>
+        <button class="tecla tecla_som8"><img src="img/superidol.jpeg" alt="Som 8"></button>
+        <button class="tecla tecla_som9"><img src="img/whitebird.jpeg" alt="Som 9"></button>
+    </section>
+
 
 
 
    </section>
+
+       <!-- Áudios correspondentes aos botões -->
+    <audio src="./img/sons/ballin meme #memes #xd.mp3" id="som_tecla_som1"</audio>
+    <audio src="./img/sons/Candyland, But it is low quality.mp3" id="som_tecla_som2"></audio>
+    <audio src="./img/sons/Chinese Rap meme.mp3" id="som_tecla_som3"></audio>
+    <audio src="./img/sons/videoplayback (1).webm" id="som_tecla_som4"></audio>
+    <audio src="./img/sons/videoplayback.webm" id="som_tecla_som5"></audio>
+    <audio src="./img/sons/videoplayback (2).webm" id="som_tecla_som6"></audio>
+    <audio src="./img/sons/Rizz Song (slowed + Reverb) ｜ Edit.mp3" id="som_tecla_som7"></audio>
+    <audio src="./img/sons/Super Idol Meme Lyrics.mp3" id="som_tecla_som8"></audio>
+    <audio src="./img/sons/Bird screaming meme (bird screaming original meme).mp3" id="som_tecla_som9"></audio>
+
+    <!-- Script principal -->
+    <script src="main.js"></script>
 </body>
 </html>
+
